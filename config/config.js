@@ -15,10 +15,15 @@ module.exports = {
   // BACKEND_BULK_URL: 'https://windows-rms-server-production.up.railway.app/api/tracking/bulk-sync',
   // BACKEND_SINGLE_URL: 'https://windows-rms-server-production.up.railway.app/api/tracking/sync',
 
+  // TEST API endpoints --EC2 (release-test build; do NOT ship to prod fleet)
+  BACKEND_BASE_URL: 'http://13.60.218.244:3000',
+  BACKEND_BULK_URL: 'http://13.60.218.244:3000/api/tracking/bulk-sync',
+  BACKEND_SINGLE_URL: 'http://13.60.218.244:3000/api/tracking/sync',
+
   // PROD API endpoints --SAMA LIVE
-  BACKEND_BASE_URL: 'https://rms-api.thesama.in',
-  BACKEND_BULK_URL: 'https://rms-api.thesama.in/api/tracking/bulk-sync',
-  BACKEND_SINGLE_URL: 'https://rms-api.thesama.in/api/tracking/sync',
+  // BACKEND_BASE_URL: 'https://rms-api.thesama.in',
+  // BACKEND_BULK_URL: 'https://rms-api.thesama.in/api/tracking/bulk-sync',
+  // BACKEND_SINGLE_URL: 'https://rms-api.thesama.in/api/tracking/sync',
 
   // BACKEND_BULK_URL: 'https://windows-socket.thesama.in/api/tracking/bulk-sync',
   // BACKEND_SINGLE_URL: 'https://windows-socket.thesama.in/api/tracking/sync',
